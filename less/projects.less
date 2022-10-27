@@ -1,0 +1,76 @@
+.projects {
+  max-width: 100vw;
+  background: @light;
+  padding: 3%;
+  border-bottom: 5px solid @purple;
+  border-top: 5px solid @purple;
+  .container {
+    .typewriter {
+      width: 100%;
+      padding-bottom: 7%;
+    }
+    .projectContainer {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      flex-wrap: wrap;
+      .project {
+        display: block;
+        height: 300px;
+        width: 300px;
+        color: @light;
+        background-color: @dark;
+        padding: 1%;
+        margin: 1%;
+        border-radius: 10%;
+        border: 10px solid @purple;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        div {
+          text-decoration: none;
+          h2 {
+            padding: 5%;
+            color: @light;
+          }
+          img {
+            max-height: 150px;
+            max-width: 200px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+            padding: 1%;
+            border-radius: 10%;
+            margin: 5%;
+            background-color: @light;
+          }
+        }
+        form {
+          display: inline;
+          button {
+            background: @light;
+            border-radius: 15px;
+            padding: 3%;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: @purple;
+            color: @light;
+          }
+        }
+      }
+    }
+  }
+}
+
+.project-hover {
+  margin: 4px;
+  transform: scale(1);
+  perspective: 600px;
+}
+.project:hover {
+  z-index: 5;
+  transform: scale(1.15);
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+.project {
+  transition: all 250ms ease-out;
+}

@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: @darkFade;
+  position: fixed;
+  width: 100vw;
+  padding: 1%;
+  padding-top: 0%;
+  max-height: 80px;
+  div {
+    max-width: 80%;
+    max-height: 80px;
+    display: flex;
+    padding: 1%;
+    img {
+      max-width: 60px;
+      max-height: 50px;
+    }
+    h1 {
+      margin-left: 3%;
+      padding: 1%;
+      color: @light;
+      min-width: fit-content;
+    }
+  }
+  .navigation {
+    padding: 0.5%;
+    padding-right: 3%;
+  }
+}
+svg {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+.hamburger,
+.navigation-menu.expanded button {
+  background-color: #ffffff95;
+  border: 3px solid #00000095;
+  color: @purple;
+  font-size: xx-large;
+  margin: 2%;
+  margin-right: 5%;
+  height: 55px;
+  width: 55px;
+  border-radius: 25%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.navigation-menu ul {
+  opacity: 0;
+  height: 0px;
+  li {
+    display: none;
+  }
+}
+
+.navigation-menu.expanded ul {
+  opacity: 1;
+  transition: opacity 2s ease;
+  display: block;
+  list-style-type: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000e0;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  div {
+    width: 80%;
+    justify-content: right;
+  }
+  li {
+    display: block;
+    padding: 2%;
+    a {
+      font-size: xx-large;
+      text-decoration: none;
+      color: @light;
+      font-weight: bold;
+      -webkit-text-stroke: 0.5px @dark;
+      text-shadow: 2px 2px 0px @purple, 1.5px 1.5px 0px @purple,
+        1px 1px 0px @purple, 0.5px 0.5px 0px @purple;
+    }
+  }
+  .social-media {
+    width: 70%;
+    min-width: 300px;
+    margin: auto;
+    justify-content: center;
+    .fa {
+      background-color: @dark;
+      color: @light;
+      padding: 7.5px;
+      text-align: center;
+      margin: 5px 2px;
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 3px solid @light;
+      margin: 2%;
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar.hidden {
+  display: none;
+}

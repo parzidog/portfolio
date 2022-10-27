@@ -1,0 +1,34 @@
+.contact {
+  max-width: 100vw;
+  background: @dark;
+  color: @light;
+  padding: 3%;
+  border-bottom: 5px solid @purple;
+  border-top: 5px solid @purple;
+  margin: auto;
+  h1 {
+    max-width: 95%;
+    padding-bottom: 7%;
+    color: @light;
+  }
+  .info {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 3%;
+    .propertyName {
+      width: 25%;
+      max-width: 300px;
+      text-align: left;
+    }
+    .propertyValue {
+      width: 70%;
+      text-align: right;
+      min-width: 450px;
+      a {
+        color: @light;
+        text-decoration-color: @gray;
+      }
+    }
+  }
+}

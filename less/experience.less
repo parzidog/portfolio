@@ -1,0 +1,74 @@
+.experience {
+  max-width: 100vw;
+  background: @light;
+  padding: 3%;
+  border-bottom: 5px solid @purple;
+  border-top: 5px solid @purple;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    color: @dark;
+  }
+  .download {
+    padding: 1.5%;
+    text-align: center;
+    a {
+      font-weight: bolder;
+      text-decoration-color: @dark;
+      color: @purple;
+      -webkit-text-stroke: 0.5px @gray;
+    }
+  }
+
+  .singleJob {
+    width: 100%;
+    max-width: 900px;
+    padding: 2%;
+    margin: auto;
+
+    .companyName {
+      text-align: left;
+      color: @dark;
+      font-weight: bolder;
+      text-decoration: underline @purple;
+      -webkit-text-stroke: 0.5px @purple;
+    }
+
+    .date {
+      text-align: left;
+      font-weight: bolder;
+      color: @purple;
+    }
+
+    .jobDetails {
+      padding: 2.5%;
+
+      h4 {
+        text-align: left;
+        color: @dark;
+      }
+
+      ul {
+        text-align: left;
+        list-style: none;
+      }
+      li {
+        text-align: left;
+        color: @dark;
+      }
+
+      ul li::before {
+        content: "\2022";
+        /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: @purple;
+        /* Change the color */
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+import logo from "./logo.png";
+import GraceAdopter from "./graceadopter.png";
+import HelloKitchen from "./hellokitchen.png";
+
+export const jobs = [
+  {
+    name: "Donald Jones Consulting",
+    title: "General Manager / IT Consultant",
+    date: "September 2021 - PRESENT",
+    description: [
+      "Managed a process re-engineering project to improve and consolidate end-to-end service processes.",
+      "Restructured communication flow among 28 facilities and cut down paperwork by 45%.",
+      "Controlled the release of proprietary information by organizing and developing secure information systems.",
+      "Analyzed and adjusted work procedures for the chief of operations that maximized production efficiency by 32%.",
+      "Planned, set and implemented facility goals while maintaining budget standards which led to a 1200% increase in facility utilization.",
+    ],
+  },
+  {
+    name: "Trinity Executive Services",
+    title: "Hospital Security Officer",
+    date: "February 2020 - November 2020",
+    description: [
+      "Implemented effective deescalation techniques that lowered the number of physical confrontations by 28% during the height of the COVID pandemic.",
+      "Coordinated security protocols to comply with both HIPAA and Joint Commission standards while protecting the doctors, nurses and patients of the facility.",
+      "Controlled the release of proprietary information by organizing and developing secure information systems.",
+      "Assessed the development and effectiveness of subordinates while cultivating the strengths of individuals within the team.",
+    ],
+  },
+  {
+    name: "G3 Construction, inc.",
+    title: "Lead Commercial Foreman",
+    date: "January 2018 - January 2020",
+    description: [
+      "Planned, scheduled and assigned work for optimal distribution, staffing and production; consistently achieved deadlines, quality control goals, and produced quality inter-trade relations.",
+      "Negotiated general contracts, purchase orders and subcontract agreements with clients and subcontractors.",
+      "Supervised crews of up to 10 carpenters, journeymen, drywall hangers, and general labor personnel.",
+      "Inspected work in progress to ensure quality and conformity to contract and drawing specifications in accordance with state and federal guidelines.",
+    ],
+  },
+  {
+    name: "United States Marine Corps",
+    title: "Sergeant / Division Lead",
+    date: "December 2010 - January 2018",
+    description: [
+      "Held a Top Secret security clearance from 2012 – 2018.",
+      "Overcame seemingly insurmountable odds to attain operational readiness on 2 separate occasions, resulting in being awarded two Navy and Marine Corps Achievement medals.",
+      "Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.",
+      "Cultivated an environment that encourages organizational readiness and individual mental health awareness.",
+      "Supervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.",
+    ],
+  },
+];
+
+export const schools = [
+  {
+    name: "Amazon Web Services",
+    date: 2022,
+    certification: "AWS Cloud Practitioner",
+  },
+  {
+    name: "Fullstack Academy",
+    date: 2022,
+    certification: "Full Stack Software Engineer",
+  },
+  {
+    name: "Embry-Riddle Aeronautical University",
+    date: 2023,
+    certification: "A.S. Engineering",
+  },
+];
+
+export const contact = [
+  {
+    name: "Phone Number",
+    value: "(317) 361-2543",
+    picture: logo,
+  },
+  {
+    name: "Email Address",
+    value: "kenneth.schaefer.ii@icloud.com",
+  },
+  {
+    name: "Github",
+    value: "https://www.github.com/parzidog",
+  },
+  {
+    name: "Linkedin",
+    value: "https://www.linkedin.com/in/parzidog",
+  },
+];
+
+export const projects = [
+  {
+    name: "This Website",
+    url: "https://www.parzidog.com",
+    picture: logo,
+    repo: "https://www.github.com/parzidog/portfolio",
+  },
+  {
+    name: "Hello Kitchen",
+    url: "https://rowlf.herokuapp.com/",
+    picture: HelloKitchen,
+    repo: "https://github.com/Team-Rowlf/Rowlf",
+  },
+  {
+    name: "Grace Adopter",
+    url: "https://grace-adopter.herokuapp.com",
+    picture: GraceAdopter,
+    repo: "https://github.com/team-johnny-bravo/grace-adopter",
+  },
+];

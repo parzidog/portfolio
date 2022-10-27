@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="225mm" height="175mm" version="1.1" viewBox="0 0 225 175" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1351">
+   <stop stop-color="#725ac1" offset=".30233"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1343">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#725ac1" offset=".80325"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1345" x1="-.015622" x2="85.25" y1="113.64" y2="185.08" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1343"/>
+  <linearGradient id="linearGradient1353" x1="1.8394" x2="85.29" y1="137.93" y2="65.794" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1351"/>
+ </defs>
+ <g transform="translate(8.9065 -29.902)">
+  <path d="m115.29 76.775 20.384 11.906-39.837 69.475-20.456-11.949 39.837-69.475z" fill="#725ac1" stroke="#000" stroke-linecap="round" stroke-opacity=".99949" stroke-width=".96557"/>
+  <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+   <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+   <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+  </g>import "./App.css";
+  <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)" stroke="#000" stroke-linecap="round" stroke-opacity=".99949"/>
+  <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)" stroke="#000" stroke-linecap="round" stroke-opacity=".99949"/>
+  <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+   <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+   <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+  </g>
+  <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+   <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+   <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+  </g>
+  <g transform="matrix(-1.0004 0 0 -1.0015 209.23 232.04)">
+   <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+    <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+    <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+   </g>
+   <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+    <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+    <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+   </g>
+   <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+    <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+    <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+   </g>
+   <g stroke="#000" stroke-linecap="round" stroke-opacity=".99949">
+    <path d="m0.54951 138.28 84.951-47.332-0.15237-24.832-84.701 47.732z" fill="url(#linearGradient1353)"/>
+    <path d="m0.69052 113.7 84.951 47.333-0.15237 24.832-84.701-47.732z" fill="url(#linearGradient1345)"/>
+   </g>
+  </g>
+ </g>
+</svg>

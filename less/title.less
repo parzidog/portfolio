@@ -1,0 +1,43 @@
+.title {
+  background: @dark;
+  height: 90vh;
+  padding: 10%;
+  border-bottom: 5px solid @purple;
+  .logo {
+    padding: 3%;
+    img {
+      max-width: 400px;
+      animation: ease-in;
+      animation-name: spin;
+      animation-duration: 5000ms;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-delay: 1s;
+    }
+  }
+  .descriptive {
+    color: @light;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    h2 {
+      padding: 3%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      font-size: xx-large;
+    }
+
+    .line {
+      border-left: 6px solid @purple;
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(540deg);
+  }
+}

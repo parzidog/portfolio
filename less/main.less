@@ -17,3 +17,98 @@ h1.typewriter {
   font-weight: bolder;
   width: 100%;
 }
+
+@media only screen and (max-device-width: 800px) { 
+  .navbar{
+    div{
+      img {
+      max-width: 40px;
+      max-height: 40px;
+    }
+      h1{
+        font-size: x-large;
+      }
+    }
+  }
+  .title{
+    padding: 4%;
+    max-width: 100vw;
+    .descriptive{
+      .adaptable{
+        font-size:medium;
+      }
+      .creative{
+        font-size:medium;
+      }
+      .focused{
+        font-size:medium;
+      }
+    }
+  }
+  .contact{
+    .info {
+        flex-wrap:wrap;
+        justify-content: space-between;
+        margin: auto;
+        .propertyName {
+          min-width:fit-content;
+          font-size: small;
+        }
+        .propertyValue {
+          min-width:fit-content;
+          font-size: small;
+          a {
+          font-size: small;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-device-width: 400px) { 
+  .navbar{
+    div{
+      img {
+      max-width: 30px;
+      max-height: 30px;
+    }
+      h1{
+        font-size: medium;
+      }
+    }
+  }
+  .title{
+    padding: 1%;
+    max-width: 100vw;
+    .descriptive{
+      .adaptable{
+        font-size:x-small;
+      }
+      .creative{
+        font-size:x-small;
+      }
+      .focused{
+        font-size:x-small;
+      }
+    }
+  }
+  .contact{
+    .info {
+      justify-content: space-between;
+      flex-wrap:wrap;
+      margin: auto;
+      .propertyName {
+        min-width:fit-content;
+        font-size: x-small;
+      }
+      .propertyValue {
+        min-width:fit-content;
+        font-size: x-small;
+        a {
+        font-size: x-small;
+      }
+    }
+  }
+  }
+}

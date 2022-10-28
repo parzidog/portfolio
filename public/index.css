@@ -441,6 +441,7 @@ h1.typewriter {
   .svg {
     width: 35px;
     height: 35px;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -483,5 +484,6 @@ h1.typewriter {
   .svg {
     width: 30px;
     height: 30px;
+    margin: auto;
   }
 }

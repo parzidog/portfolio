@@ -271,6 +271,8 @@ svg {
   padding: 3%;
   border-bottom: 5px solid #725ac1;
   border-top: 5px solid #725ac1;
+  display: flex;
+  flex-wrap: wrap;
 }
 .education h1 {
   width: 100%;
@@ -278,8 +280,16 @@ svg {
   color: #f7ece1;
 }
 .education .singleInstitute {
-  padding: 1%;
+  width: 350px;
+  height: 150px;
   color: #f7ece1;
+  border: 10px solid #725ac1;
+  padding-top: 5%;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 2%;
+  background-image: radial-gradient(#aea4b4, #f7ece1);
+  color: #202038;
 }
 .education .singleInstitute .date {
   font-weight: bold;
@@ -305,7 +315,7 @@ svg {
   font-weight: bolder;
   text-decoration-color: #202038;
   color: #725ac1;
-  -webkit-text-stroke: 0.5px #cac4ce;
+  -webkit-text-stroke: 0.5px #aea4b4;
 }
 .experience .singleJob {
   width: 100%;
@@ -381,7 +391,7 @@ svg {
 }
 .contact .info .propertyValue a {
   color: #f7ece1;
-  text-decoration-color: #cac4ce;
+  text-decoration-color: #aea4b4;
 }
 * {
   margin: 0;
@@ -445,7 +455,7 @@ h1.typewriter {
   }
   .hamburger,
   .navigation-menu.expanded button {
-    width: fit-content;
+    width: 50px;
     height: fit-content;
   }
 }
@@ -493,7 +503,7 @@ h1.typewriter {
   }
   .hamburger,
   .navigation-menu.expanded button {
-    width: fit-content;
+    width: 50px;
     height: fit-content;
   }
 }

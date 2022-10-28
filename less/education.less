@@ -4,6 +4,8 @@
   padding: 3%;
   border-bottom: 5px solid @purple;
   border-top: 5px solid @purple;
+  display:flex;
+  flex-wrap: wrap;
   h1 {
     width: 100%;
     padding-bottom: 7%;
@@ -11,9 +13,16 @@
   }
 
   .singleInstitute {
-    padding: 1%;
+    width: 350px;
+    height: 150px;
     color: @light;
-
+    border: 10px solid @purple;
+    padding-top: 5%;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 2%;
+    background-image: radial-gradient(@gray, @light);
+    color: @dark;
     .date {
       font-weight: bold;
     }

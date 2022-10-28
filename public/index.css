@@ -110,7 +110,7 @@ svg {
 }
 .title {
   background: #202038;
-  height: 90vh;
+  min-height: 90vh;
   padding: 7.5%;
   padding-top: 0%;
   border-bottom: 5px solid #725ac1;
@@ -443,6 +443,11 @@ h1.typewriter {
     height: 35px;
     margin: auto;
   }
+  .hamburger,
+  .navigation-menu.expanded button {
+    width: fit-content;
+    height: fit-content;
+  }
 }
 @media only screen and (max-width: 400px) {
   .navbar div img {
@@ -485,5 +490,10 @@ h1.typewriter {
     width: 30px;
     height: 30px;
     margin: auto;
+  }
+  .hamburger,
+  .navigation-menu.expanded button {
+    width: fit-content;
+    height: fit-content;
   }
 }

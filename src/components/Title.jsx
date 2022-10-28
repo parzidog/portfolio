@@ -8,11 +8,17 @@ const Title = () => {
         <img src={logo} alt="" />
       </div>
       <div className="descriptive">
-        <h2 id="adaptable">Adaptable</h2>
+        <h2 className="descriptor" id="adaptable">
+          Adaptable
+        </h2>
         <div className="line"></div>
-        <h2 id="creative">Creative</h2>
+        <h2 className="descriptor" id="creative">
+          Creative
+        </h2>
         <div className="line"></div>
-        <h2 id="focused">Focused</h2>
+        <h2 className="descriptor" id="focused">
+          Focused
+        </h2>
       </div>
     </div>
   );

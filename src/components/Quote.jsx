@@ -5,10 +5,11 @@ const Quote = () => {
     <div className="quote">
       <div className="container">
         <h1>
-          "Find the things you love and do them everyday, even if it means
-          failing."
+          "Everybody is a genius. But if you judge a fish by its ability to
+          climb a tree, it will live its whole life believing that it is
+          stupid."
         </h1>
-        <h4>- Julie Murphy</h4>
+        <h4>- Albert Einstein</h4>
       </div>
     </div>
   );

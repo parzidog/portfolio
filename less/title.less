@@ -1,18 +1,19 @@
 .title {
   background: @dark;
   height: 90vh;
-  padding: 10%;
+  padding: 7.5%;
+  padding-top: 0%;
   border-bottom: 5px solid @purple;
   .logo {
     padding: 3%;
     img {
-      max-width: 80%;
+      width: 70%;
+      max-width: 700px;
       animation: ease-in;
       animation-name: spin;
       animation-duration: 5000ms;
       animation-iteration-count: 1;
       animation-timing-function: ease;
-      animation-delay: 1s;
     }
   }
   .descriptive {
@@ -35,10 +36,11 @@
 
 @keyframes spin {
   from {
+    opacity: 0;
     transform: rotate(0deg);
   }
   to {
+    opacity: 1;
     transform: rotate(540deg);
   }
 }
-

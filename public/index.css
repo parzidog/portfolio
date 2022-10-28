@@ -451,7 +451,7 @@ h1.typewriter {
   .svg {
     width: 35px;
     height: 35px;
-    margin: auto;
+    margin-left: 0%;
   }
   .hamburger,
   .navigation-menu.expanded button {
@@ -499,7 +499,7 @@ h1.typewriter {
   .svg {
     width: 30px;
     height: 30px;
-    margin: auto;
+    margin-left: 0%;
   }
   .hamburger,
   .navigation-menu.expanded button {

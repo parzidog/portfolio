@@ -18,7 +18,7 @@ h1.typewriter {
   width: 100%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 401px) {
   .navbar {
     div {
       img {
@@ -39,6 +39,20 @@ h1.typewriter {
       }
     }
   }
+  .aboutme{
+    .container{
+      .paragraph{
+        font-size: medium;
+      }
+    }
+  }
+  .experience{
+    .singleJob{
+      .jobDetails{
+        font-size: small;
+      }
+    }
+  }
   .contact {
     .info {
       flex-wrap: wrap;
@@ -56,6 +70,10 @@ h1.typewriter {
         }
       }
     }
+  }
+  .svg{
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -80,6 +98,20 @@ h1.typewriter {
       }
     }
   }
+  .aboutme{
+    .container{
+      .paragraph{
+        font-size: small;
+      }
+    }
+  }
+  .experience{
+    .singleJob{
+      .jobDetails{
+        font-size: smaller;
+      }
+    }
+  }
   .contact {
     .info {
       justify-content: space-between;
@@ -97,5 +129,9 @@ h1.typewriter {
         }
       }
     }
+  }
+  .svg{
+    width: 30px;
+    height: 30px;
   }
 }

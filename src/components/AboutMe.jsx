@@ -11,7 +11,7 @@ const AboutMe = () => {
               typewriter.typeString("About Me").pauseFor(2500).start();
             }}
             options={{
-              autoStart: true
+              autoStart: true,
             }}
           />
         </h1>

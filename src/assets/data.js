@@ -1,6 +1,6 @@
-import logo from "./logo.png";
-import GraceAdopter from "./graceadopter.png";
-import HelloKitchen from "./hellokitchen.png";
+import logo from "./logo.webp";
+import GraceAdopter from "./graceadopter.webp";
+import HelloKitchen from "./hellokitchen.webp";
 
 export const jobs = [
   {

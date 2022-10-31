@@ -35,7 +35,7 @@ const AboutMe = () => {
           that I discovered my love for computers and computer programming.
           While attending college full-time, I taught myself C/C++, Python, HTML
           and CSS programming languages before deciding to pursue a formal
-          education in Software Engineering with a focus in Javascript and web
+          education in Software Engineering with a focus in JavaScript and web
           development.
         </p>
       </div>

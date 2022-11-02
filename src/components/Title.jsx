@@ -3,7 +3,7 @@ import logo from "../assets/logo.svg";
 
 const Title = () => {
   return (
-    <div className="title">
+    <div className="title" id="title">
       <div className="logo">
         <img src={logo} alt="" />
       </div>

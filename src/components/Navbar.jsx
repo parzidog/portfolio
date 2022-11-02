@@ -58,7 +58,7 @@ const Navbar = () => {
             )}
             <li>
               <a
-                href="#home"
+                href="#title"
                 onClick={() => {
                   setIsNavExpanded(!isNavExpanded);
                 }}

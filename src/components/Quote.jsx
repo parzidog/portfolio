@@ -2,7 +2,7 @@ import React from "react";
 
 const Quote = () => {
   return (
-    <div className="quote">
+    <div className="quote" id="quote">
       <div className="container">
         <h1>
           "Everybody is a genius. But if you judge a fish by its ability to

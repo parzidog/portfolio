@@ -6,7 +6,7 @@ import resume from "../assets/resume.pdf";
 const Experience = () => {
   let num = 0;
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
       <h1>
       <Typewriter
             onInit={(typewriter) => {

@@ -67,6 +67,7 @@ svg {
   z-index: 2;
   right: 0;
   top: 0;
+  max-height: 100vh;
 }
 .navigation-menu.expanded ul div {
   width: 80%;
@@ -75,7 +76,7 @@ svg {
 }
 .navigation-menu.expanded ul li {
   display: block;
-  padding: 2%;
+  padding: 1.5%;
 }
 .navigation-menu.expanded ul li a {
   font-size: xx-large;

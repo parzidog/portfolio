@@ -78,7 +78,7 @@ export const contact = [
   },
   {
     name: "Email Address",
-    value: "kenneth.schaefer.ii@icloud.com",
+    value: "parzidog@icloud.com",
   },
   {
     name: "Github",

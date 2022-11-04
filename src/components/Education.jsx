@@ -4,7 +4,7 @@ import { schools } from "../assets/data";
 
 const Education = () => {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <h1>
         <Typewriter
           onInit={(typewriter) => {

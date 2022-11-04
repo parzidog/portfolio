@@ -62,9 +62,10 @@ const Projects = () => {
                     onMouseMove={handleMouseMove}
                   />
                 </div>
-                <form action={project.url}>
+                {project.url ? <form action={project.url}>
                   <button type="submit">Visit Site</button>
                 </form>
+                  : <></>}
                 <form action={project.repo}>
                   <button type="submit">See Repo</button>
                 </form>

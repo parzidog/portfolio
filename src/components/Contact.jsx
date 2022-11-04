@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h1 className="typewriter">
         <Typewriter
           onInit={(typewriter) => {

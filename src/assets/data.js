@@ -1,6 +1,7 @@
 import logo from "./logo.webp";
 import GraceAdopter from "./graceadopter.webp";
 import HelloKitchen from "./hellokitchen.webp";
+import Automation from "./automation.webp"
 
 export const jobs = [
   {
@@ -101,11 +102,20 @@ export const projects = [
     url: "https://rowlf.herokuapp.com/",
     picture: HelloKitchen,
     repo: "https://github.com/Team-Rowlf/Rowlf",
+    description: "Hello Kitchen aids a user in selecting meals and purchasing the necessary ingredients to make those meals. It implements a simple, feature rich single page application model with nested routes for quick,concise load times while still integrating Amazon Fresh ordering and Google Maps / Places to list nearby stores for purchasing items."
   },
   {
     name: "Grace Adopter",
     url: "https://grace-adopter.herokuapp.com",
     picture: GraceAdopter,
     repo: "https://github.com/team-johnny-bravo/grace-adopter",
+    description: "Grace Adopter is a mock up site for a pet adoption agency that aims to help lonely pets find their FurEver home. It is built using JavaScript's REACT framework on the front-end and PostgreSQL on the back-end. This project is an example of a quick yet scale-able project as it went from planning to deployment in a single week."
+  },
+  {
+    name: "Python Web Automation",
+    url: "",
+    picture: Automation,
+    repo: "https://github.com/parzidog/automation",
+    description: "This is a simple web automation application using Python that I built to help streamline on-site visits by the Chief of Operations. Upon entry to a facility, the Chief of Operations will log into and open the application. Once the application is open, she will then select which facility she is at. Upon her selection, the application will log her into her account and simultaneously download a series of reports and display them on the screen with the option to select a physical printer to send them to. As this is a professional project with sensitive data, I am unable to share the source code or provide access to the application."
   },
 ];

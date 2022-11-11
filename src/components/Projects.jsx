@@ -85,13 +85,15 @@ const Projects = () => {
             );
           })}
         </div>
-        {clicked.picture ? 
         <div className="projectInfo" id="projectInfo">
+        {clicked.picture ? 
+        <>
           <img src={clicked.picture} alt="Project" />
           <h1>{clicked.name}</h1>
           <h3>{clicked.description}</h3>
-        </div>
-        :<> </>}
+        </>
+          :<> </>}
+          </div>
       </div>
     </div>
   );

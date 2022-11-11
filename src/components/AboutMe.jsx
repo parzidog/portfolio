@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
+import { listener } from "../assets/helperFunctions";
 
 const AboutMe = () => {
+
+  const [start, setStart] = React.useState(false);
+
+  let  id = "quote"
+
+  useEffect(() => {
+  listener(id, setStart)
+  },[])
+
   return (
     <div className="aboutme" id="aboutme">
       <div className="container">
         <h1 className="typewriter">
-          <Typewriter
+          {start ? <Typewriter
             onInit={(typewriter) => {
-              typewriter.typeString("About Me").pauseFor(2500).start();
+              typewriter.typeString("About Me").start();
             }}
             options={{
               autoStart: true,
             }}
-          />
+          /> : <></>}
         </h1>
         <p className="paragraph">
           I am a lifelong student above all else. I am also a Marine Corps

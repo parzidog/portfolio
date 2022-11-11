@@ -96,26 +96,27 @@ export const projects = [
     url: "https://www.parzidog.com",
     picture: logo,
     repo: "https://www.github.com/parzidog/portfolio",
+    description: "This website is a top of the line, full stack, single page application that is built with React, Node, Express, and PostgreSQL. The object of this website is to be simple while still displaying some of my abilities as a software engineer. It is fully responsive and is hosted on Heroku. I am continually adding new features and improving the user experience. I plan to migrate this website to AWS in the near future.",
   },
   {
     name: "Hello Kitchen",
     url: "https://rowlf.herokuapp.com/",
     picture: HelloKitchen,
     repo: "https://github.com/Team-Rowlf/Rowlf",
-    description: "Hello Kitchen aids a user in selecting meals and purchasing the necessary ingredients to make those meals. It implements a simple, feature rich single page application model with nested routes for quick,concise load times while still integrating Amazon Fresh ordering and Google Maps / Places to list nearby stores for purchasing items."
+    description: "Hello Kitchen aids a user in selecting meals and purchasing the necessary ingredients to make those meals. It implements a simple, feature rich single page application model with nested routes for quick,concise load times while still integrating Amazon Fresh ordering and Google Maps / Places to list nearby stores for purchasing items. This project was built with React, Redux, Express, Sequelize, and PostgreSQL. While building this application, I expanded my knowledge in the importance of single page applications and how to implement them in a way that is both user friendly and efficient.",
   },
   {
     name: "Grace Adopter",
     url: "https://grace-adopter.herokuapp.com",
     picture: GraceAdopter,
     repo: "https://github.com/team-johnny-bravo/grace-adopter",
-    description: "Grace Adopter is a mock up site for a pet adoption agency that aims to help lonely pets find their FurEver home. It is built using JavaScript's REACT framework on the front-end and PostgreSQL on the back-end. This project is an example of a quick yet scale-able project as it went from planning to deployment in a single week."
+    description: "Grace Adopter is a mock up site for a pet adoption agency that aims to help lonely pets find their FurEver home. It is built using JavaScript's REACT framework on the front-end and PostgreSQL on the back-end. This project is an example of a quick yet scale-able project as it went from planning to deployment in a single week. The quick turn around of this project helped me to solidify my understanding of the importance of a proper Git workflow and the importance of planning and communication in a team environment."
   },
   {
     name: "Python Web Automation",
     url: "",
     picture: Automation,
     repo: "https://github.com/parzidog/automation",
-    description: "This is a simple web automation application using Python that I built to help streamline on-site visits by the Chief of Operations. Upon entry to a facility, the Chief of Operations will log into and open the application. Once the application is open, she will then select which facility she is at. Upon her selection, the application will log her into her account and simultaneously download a series of reports and display them on the screen with the option to select a physical printer to send them to. As this is a professional project with sensitive data, I am unable to share the source code or provide access to the application."
+    description: "This is a simple web automation application using Python that I built to help streamline on-site visits by the Chief of Operations. Upon entry to a facility, the Chief of Operations will log into and open the application. Once the application is open, she will then select which facility she is at. Upon her selection, the application will log her into her account and simultaneously download a series of reports and display them on the screen with the option to select a physical printer to send them to. As this is a professional project with sensitive data, I am unable to share the source code or provide access to the application. While this project is not a full stack application, it does demonstrate my ability to learn new technologies and implement them in a way that is both efficient and effective."
   },
 ];

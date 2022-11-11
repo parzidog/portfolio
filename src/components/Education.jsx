@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
+import { listener } from "../assets/helperFunctions";
 import { schools } from "../assets/data";
 
 const Education = () => {
+
+  const [start, setStart] = React.useState(false);
+
+  let  id = "projects"
+
+  useEffect(() => {
+    listener(id, setStart)
+  },[])
+
   return (
     <div className="education" id="education">
       <h1>
-        <Typewriter
-          onInit={(typewriter) => {
-            typewriter.typeString("Education").pauseFor(2500).start();
-          }}
-          options={{
-            autoStart: true,
-          }}
-        />
+        {start ? <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString("Education").start();
+            }}
+            options={{
+              autoStart: true,
+            }}
+          /> : <></>}
       </h1>
       {schools.map((school) => {
         return (

@@ -20,3 +20,15 @@ export const inView = (element) => {
 
   return false;
 };
+
+export const listener = (id, state) => {
+  let element = document.getElementById(id);
+  window.addEventListener("scroll", () => {
+    if (inView(element)) {
+      state(true);
+    }
+    else{
+      state(false);
+    }
+  });
+}

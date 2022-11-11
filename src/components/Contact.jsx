@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
+import { listener } from "../assets/helperFunctions";
 
 const Contact = () => {
+
+  const [start, setStart] = React.useState(false);
+
+  let  id = "projects"
+
+  useEffect(() => {
+    listener(id, setStart)
+  },[])
+
   return (
     <div className="contact" id="contact">
       <h1 className="typewriter">
-        <Typewriter
-          onInit={(typewriter) => {
-            typewriter.typeString("Contact").pauseFor(2500).start();
-          }}
-          options={{
-            autoStart: true,
-          }}
-        />
+        {start ? <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString("Contact").start();
+            }}
+            options={{
+              autoStart: true,
+            }}
+          /> : <></>}
       </h1>
       <div className="info">
         <h2 className="propertyName">Phone:</h2>

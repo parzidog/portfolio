@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { projects } from "../assets/data";
 import Typewriter from "typewriter-effect";
-import { inView } from "../assets/helperFunctions";
+import { listener } from "../assets/helperFunctions";
 
 const Projects = () => {
+  const [clicked, setClicked] = React.useState({});
+  const [start, setStart] = React.useState(false);
   const rotatehelper = (val, minA, maxA, minB, maxB) => {
     return minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
   };
+
+  let  id = "aboutme"
+
+  useEffect(() => {
+  listener(id, setStart)
+  },[])
 
   const handleMouseMove = (event) => {
     let img = event.target;
@@ -26,7 +34,7 @@ const Projects = () => {
         "rotateX(0deg) rotateY(0deg)";
       event.target.parentNode.firstChild.children[1].style.filter =
         "brightness(1)";
-    } else {
+      } else if(event.target.firstChild.children[1]) {
       event.target.firstChild.children[1].style.transform =
         "rotateX(0deg) rotateY(0deg)";
       event.target.firstChild.children[1].style.filter = "brightness(1)";
@@ -37,14 +45,14 @@ const Projects = () => {
     <div className="projects" id="projects">
       <div className="container">
         <h1 className="typewriter" id="typewriter">
-          <Typewriter
+          {start ? <Typewriter
             onInit={(typewriter) => {
-              typewriter.typeString("My Projects").pauseFor(2500).start();
+              typewriter.typeString("My Projects").start();
             }}
             options={{
               autoStart: true,
             }}
-          />
+          /> : <></>}
         </h1>
         <div className="projectContainer">
           {projects.map((project) => {
@@ -60,6 +68,10 @@ const Projects = () => {
                     src={project.picture}
                     alt={project.name}
                     onMouseMove={handleMouseMove}
+                    onClick={() => {
+                      setClicked(project)
+                      document.getElementById("projectInfo").scrollIntoView({ behavior: "smooth" });
+                    }}
                   />
                 </div>
                 {project.url ? <form action={project.url}>
@@ -73,6 +85,13 @@ const Projects = () => {
             );
           })}
         </div>
+        {clicked.picture ? 
+        <div className="projectInfo" id="projectInfo">
+          <img src={clicked.picture} alt="Project" />
+          <h1>{clicked.name}</h1>
+          <h3>{clicked.description}</h3>
+        </div>
+        :<> </>}
       </div>
     </div>
   );

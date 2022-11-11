@@ -70,7 +70,9 @@ const Projects = () => {
                     onMouseMove={handleMouseMove}
                     onClick={() => {
                       setClicked(project)
-                      document.getElementById("projectInfo").scrollIntoView({ behavior: "smooth" }).className = "projectInfo show";
+                      let element = document.getElementById("projectInfo")
+                      element.scrollIntoView({ behavior: "smooth" })
+                      element.className = "projectInfo show";
                     }}
                   />
                 </div>

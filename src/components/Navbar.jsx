@@ -120,15 +120,15 @@ const Navbar = () => {
               <a
                 href="https://www.github.com/parzidog"
                 className="fa fa-github"
-              ></a>
+              >.</a>
               <a
                 href="https://www.linkedin.com/in/parzidog"
                 className="fa fa-linkedin"
-              ></a>
+              >.</a>
               <a
                 href="mailto: kenneth.schaefer.ii@icloud.com"
                 className="fa fa-envelope"
-              ></a>
+              >.</a>
             </div>
           </ul>
         </div>

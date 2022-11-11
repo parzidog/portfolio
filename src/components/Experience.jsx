@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import { jobs } from "../assets/data";
 import resume from "../assets/resume.pdf";
@@ -7,25 +7,25 @@ import { listener } from "../assets/helperFunctions";
 const Experience = () => {
 
   const [start, setStart] = React.useState(false);
-  
+
   let num = 0;
-  let  id = "education";
+  let id = "education";
 
   useEffect(() => {
     listener(id, setStart)
-  },[]);
+  }, []);
 
   return (
     <div className="experience" id="experience">
       <h1>
         {start ? <Typewriter
-              onInit={(typewriter) => {
-                typewriter.typeString("Experience").start();
-              }}
-              options={{
-                autoStart: true,
-              }}
-            /> : <></>}
+          onInit={(typewriter) => {
+            typewriter.typeString("Experience").start();
+          }}
+          options={{
+            autoStart: true,
+          }}
+        /> : <></>}
       </h1>
       <h2 className="download">
         <a href={resume} download>

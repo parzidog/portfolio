@@ -10,11 +10,11 @@ const Projects = () => {
     return minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
   };
 
-  let  id = "aboutme"
+  let id = "aboutme"
 
   useEffect(() => {
-  listener(id, setStart)
-  },[])
+    listener(id, setStart)
+  }, [])
 
   const handleMouseMove = (event) => {
     let img = event.target;
@@ -34,7 +34,7 @@ const Projects = () => {
         "rotateX(0deg) rotateY(0deg)";
       event.target.parentNode.firstChild.children[1].style.filter =
         "brightness(1)";
-      } else if(event.target.firstChild.children[1]) {
+    } else if (event.target.firstChild.children[1]) {
       event.target.firstChild.children[1].style.transform =
         "rotateX(0deg) rotateY(0deg)";
       event.target.firstChild.children[1].style.filter = "brightness(1)";
@@ -88,14 +88,14 @@ const Projects = () => {
           })}
         </div>
         <div className="projectInfo" id="projectInfo">
-        {clicked.picture ? 
-        <>
-          <img src={clicked.picture} alt="Project" />
-          <h1>{clicked.name}</h1>
-          <h3>{clicked.description}</h3>
-        </>
-          :<> </>}
-          </div>
+          {clicked.picture ?
+            <>
+              <img src={clicked.picture} alt="Project" />
+              <h1>{clicked.name}</h1>
+              <h3>{clicked.description}</h3>
+            </>
+            : <> </>}
+        </div>
       </div>
     </div>
   );

@@ -6,11 +6,11 @@ const AboutMe = () => {
 
   const [start, setStart] = React.useState(false);
 
-  let  id = "quote"
+  let id = "quote"
 
   useEffect(() => {
-  listener(id, setStart)
-  },[])
+    listener(id, setStart)
+  }, [])
 
   return (
     <div className="aboutme" id="aboutme">

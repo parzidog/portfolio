@@ -4,7 +4,7 @@ export const inView = (element) => {
   let windowHeight = window.innerHeight;
   // get number of pixels that the document is scrolled
   let scrollY = window.scrollY || window.pageYOffset;
-  
+
   let elementHeight = element.clientHeight;
 
   // get current scroll position (distance from the top of the page to the bottom of the current viewport)
@@ -27,7 +27,7 @@ export const listener = (id, state) => {
     if (inView(element)) {
       state(true);
     }
-    else{
+    else {
       state(false);
     }
   });

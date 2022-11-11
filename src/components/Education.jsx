@@ -7,23 +7,23 @@ const Education = () => {
 
   const [start, setStart] = React.useState(false);
 
-  let  id = "projects"
+  let id = "projects"
 
   useEffect(() => {
     listener(id, setStart)
-  },[])
+  }, [])
 
   return (
     <div className="education" id="education">
       <h1>
         {start ? <Typewriter
-            onInit={(typewriter) => {
-              typewriter.typeString("Education").start();
-            }}
-            options={{
-              autoStart: true,
-            }}
-          /> : <></>}
+          onInit={(typewriter) => {
+            typewriter.typeString("Education").start();
+          }}
+          options={{
+            autoStart: true,
+          }}
+        /> : <></>}
       </h1>
       {schools.map((school) => {
         return (

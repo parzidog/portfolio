@@ -6,23 +6,23 @@ const Contact = () => {
 
   const [start, setStart] = React.useState(false);
 
-  let  id = "projects"
+  let id = "education"
 
   useEffect(() => {
     listener(id, setStart)
-  },[])
+  }, [])
 
   return (
     <div className="contact" id="contact">
       <h1 className="typewriter">
         {start ? <Typewriter
-            onInit={(typewriter) => {
-              typewriter.typeString("Contact").start();
-            }}
-            options={{
-              autoStart: true,
-            }}
-          /> : <></>}
+          onInit={(typewriter) => {
+            typewriter.typeString("Contact").start();
+          }}
+          options={{
+            autoStart: true,
+          }}
+        /> : <></>}
       </h1>
       <div className="info">
         <h2 className="propertyName">Phone:</h2>

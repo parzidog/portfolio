@@ -4,16 +4,19 @@
   padding: 3%;
   border-bottom: 5px solid @purple;
   border-top: 5px solid @purple;
+
   .container {
     .typewriter {
       width: 100%;
       padding-bottom: 7%;
     }
+
     .projectContainer {
       display: flex;
       max-width: 1200px;
       margin: auto;
       flex-wrap: wrap;
+
       .project {
         display: block;
         height: 300px;
@@ -25,12 +28,15 @@
         border-radius: 10px;
         border: 10px solid @purple;
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
         div {
           text-decoration: none;
+
           h2 {
             padding: 5%;
             color: @light;
           }
+
           img {
             max-height: 150px;
             max-width: 200px;
@@ -42,8 +48,10 @@
             cursor: pointer;
           }
         }
+
         form {
           display: inline;
+
           button {
             background: @light;
             border-radius: 15px;
@@ -51,6 +59,7 @@
             cursor: pointer;
             color: @dark;
           }
+
           button:hover {
             background-color: @purple;
             color: @light;
@@ -66,6 +75,7 @@
   transform: scale(1);
   perspective: 600px;
 }
+
 .project:hover {
   z-index: 5;
   transform: scale(1.15);
@@ -73,31 +83,35 @@
   height: fit-content;
   overflow: hidden;
 }
+
 .project {
   transition: all 250ms ease-out;
 }
 
-.projectInfo{
+.projectInfo {
   margin-top: 2%;
   padding: 4%;
-  margin:auto;
+  margin: auto;
   border-radius: 25px;
   color: @light;
-  img{
+
+  img {
     width: 85%;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border: 3px solid @light;
   }
-  h1{
+
+  h1 {
     padding: 2%;
   }
-  h3{
+
+  h3 {
     padding-top: 2%;
     text-align: justify;
   }
 }
 
-.show{
+.show {
   background-color: @dark;
 }

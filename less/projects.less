@@ -4,69 +4,84 @@
   padding: 3%;
   border-bottom: 5px solid @purple;
   border-top: 5px solid @purple;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-  .container {
-    .typewriter {
-      width: 100%;
-      padding-bottom: 7%;
+  h1 {
+    max-width: 90%;
+    padding-bottom: 7%;
+    color: @dark;
+    display: flex;
+    justify-content: center;
+
+    div {
+      max-width: fit-content;
     }
+  }
 
-    .projectContainer {
-      display: flex;
-      max-width: 1200px;
-      margin: auto;
-      flex-wrap: wrap;
+  .projectContainer {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
 
-      .project {
-        display: block;
-        height: 300px;
-        width: 300px;
-        color: @light;
-        background-color: @dark;
-        padding: 1%;
-        margin: 1%;
-        border-radius: 10px;
-        border: 10px solid @purple;
-        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    .project {
+      display: block;
+      height: 300px;
+      width: 300px;
+      color: @light;
+      background-color: @dark;
+      padding: 1%;
+      margin: 1%;
+      border-radius: 10px;
+      border: 10px solid @purple;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 
-        div {
-          text-decoration: none;
 
-          h2 {
-            padding: 5%;
-            color: @light;
-          }
+      div {
+        text-decoration: none;
 
-          img {
-            max-height: 150px;
-            max-width: 200px;
-            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-            padding: 1%;
-            border-radius: 10px;
-            margin: 5%;
-            background-color: @light;
-            cursor: pointer;
-          }
+        h2 {
+          padding: 5%;
+          color: @light;
         }
 
-        form {
-          display: inline;
+        img {
+          max-height: 150px;
+          max-width: 200px;
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+          padding: 1%;
+          border-radius: 10px;
+          margin: 5%;
+          background-color: @light;
+          cursor: pointer;
+        }
+      }
 
-          button {
-            background: @light;
-            border-radius: 15px;
-            padding: 3%;
-            cursor: pointer;
-            color: @dark;
-          }
+      form {
+        display: inline;
 
-          button:hover {
-            background-color: @purple;
-            color: @light;
-          }
+        button {
+          background: @light;
+          border-radius: 15px;
+          padding: 3%;
+          cursor: pointer;
+          color: @dark;
+        }
+
+        button:hover {
+          background-color: @purple;
+          color: @light;
         }
       }
     }
+  }
+
+  .projectInfo {
+    width: 100%;
+    min-width: 400px;
+    margin: auto;
   }
 }
 

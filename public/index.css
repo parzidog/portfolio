@@ -232,6 +232,7 @@ svg {
   animation-duration: 3s;
   -webkit-animation-duration: 3s;
   -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
@@ -261,6 +262,7 @@ svg {
   animation-duration: 2.5s;
   -webkit-animation-duration: 2.5s;
   -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
 }
 .slideLeft,
 .slideRight {
@@ -292,6 +294,7 @@ svg {
   animation-duration: 2.5s;
   -webkit-animation-duration: 2.5s;
   -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
 }
 @keyframes slideRight {
   0% {
@@ -344,8 +347,21 @@ svg {
   border-bottom: 5px solid #725ac1;
   border-top: 5px solid #725ac1;
   color: #f7ece1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.aboutme .container .paragraph {
+.aboutme h1 {
+  max-width: 90%;
+  padding-bottom: 7%;
+  color: #f7ece1;
+  display: flex;
+  justify-content: center;
+}
+.aboutme h1 div {
+  max-width: fit-content;
+}
+.aboutme .paragraph {
   max-width: 900px;
   text-align: justify;
   margin: auto;
@@ -358,18 +374,27 @@ svg {
   padding: 3%;
   border-bottom: 5px solid #725ac1;
   border-top: 5px solid #725ac1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.projects .container .typewriter {
-  width: 100%;
+.projects h1 {
+  max-width: 90%;
   padding-bottom: 7%;
+  color: #202038;
+  display: flex;
+  justify-content: center;
 }
-.projects .container .projectContainer {
+.projects h1 div {
+  max-width: fit-content;
+}
+.projects .projectContainer {
   display: flex;
   max-width: 1200px;
   margin: auto;
   flex-wrap: wrap;
 }
-.projects .container .projectContainer .project {
+.projects .projectContainer .project {
   display: block;
   height: 300px;
   width: 300px;
@@ -381,14 +406,14 @@ svg {
   border: 10px solid #725ac1;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.projects .container .projectContainer .project div {
+.projects .projectContainer .project div {
   text-decoration: none;
 }
-.projects .container .projectContainer .project div h2 {
+.projects .projectContainer .project div h2 {
   padding: 5%;
   color: #f7ece1;
 }
-.projects .container .projectContainer .project div img {
+.projects .projectContainer .project div img {
   max-height: 150px;
   max-width: 200px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -398,19 +423,24 @@ svg {
   background-color: #f7ece1;
   cursor: pointer;
 }
-.projects .container .projectContainer .project form {
+.projects .projectContainer .project form {
   display: inline;
 }
-.projects .container .projectContainer .project form button {
+.projects .projectContainer .project form button {
   background: #f7ece1;
   border-radius: 15px;
   padding: 3%;
   cursor: pointer;
   color: #202038;
 }
-.projects .container .projectContainer .project form button:hover {
+.projects .projectContainer .project form button:hover {
   background-color: #725ac1;
   color: #f7ece1;
+}
+.projects .projectInfo {
+  width: 100%;
+  min-width: 400px;
+  margin: auto;
 }
 .project-hover {
   margin: 4px;

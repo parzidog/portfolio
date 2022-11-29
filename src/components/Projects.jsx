@@ -43,59 +43,58 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
-      <div className="container">
-        <h1 className="typewriter" id="typewriter">
-          {start ? <Typewriter
-            onInit={(typewriter) => {
-              typewriter.typeString("My Projects").start();
-            }}
-            options={{
-              autoStart: true,
-            }}
-          /> : <></>}
-        </h1>
-        <div className="projectContainer">
-          {projects.map((project) => {
-            return (
-              <div
-                className="project"
-                key={project.name}
-                onMouseLeave={handleMouseLeave}
-              >
-                <div>
-                  <h2>{project.name}</h2>
-                  <img
-                    src={project.picture}
-                    alt={project.name}
-                    onMouseMove={handleMouseMove}
-                    onClick={() => {
-                      setClicked(project)
-                      let element = document.getElementById("projectInfo")
-                      element.scrollIntoView({ behavior: "smooth" })
-                      element.className = "projectInfo show";
-                    }}
-                  />
-                </div>
-                {project.url ? <form action={project.url}>
-                  <button type="submit">Visit Site</button>
-                </form>
-                  : <></>}
-                <form action={project.repo}>
-                  <button type="submit">See Repo</button>
-                </form>
+      <h1 className="typewriter" id="typewriter">
+        {start ? <Typewriter
+          onInit={(typewriter) => {
+            typewriter.typeString("My Projects").start();
+          }}
+          options={{
+            autoStart: true,
+          }}
+        /> : <></>}
+      </h1>
+      <div className="projectContainer">
+        {projects.map((project) => {
+          return (
+            <div
+              className="project"
+              key={project.name}
+              onMouseLeave={handleMouseLeave}
+            >
+              <div>
+                <h2>{project.name}</h2>
+                <img
+                  src={project.picture}
+                  alt={project.name}
+                  onMouseMove={handleMouseMove}
+                  onClick={() => {
+                    setClicked(project)
+                    let element = document.getElementById("projectInfo")
+                    element.scrollIntoView({ behavior: "smooth" })
+                    element.className = "projectInfo show";
+                  }}
+                />
               </div>
-            );
-          })}
-        </div>
-        <div className="projectInfo" id="projectInfo">
-          {clicked.picture ?
-            <>
-              <img src={clicked.picture} alt="Project" />
-              <h1>{clicked.name}</h1>
-              <h3>{clicked.description}</h3>
-            </>
-            : <> </>}
-        </div>
+              {project.url ? <form action={project.url}>
+                <button type="submit">Visit Site</button>
+              </form>
+                : <></>}
+              {project.repo ? <form action={project.repo}>
+                <button type="submit">See Repo</button>
+              </form>
+                : <></>}
+            </div>
+          );
+        })}
+      </div>
+      <div className="projectInfo" id="projectInfo">
+        {clicked.picture ?
+          <>
+            <img src={clicked.picture} alt="Project" />
+            <h1>{clicked.name}</h1>
+            <h3>{clicked.description}</h3>
+          </>
+          : <> </>}
       </div>
     </div>
   );

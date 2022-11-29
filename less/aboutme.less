@@ -4,13 +4,27 @@
   border-bottom: 5px solid @purple;
   border-top: 5px solid @purple;
   color: @light;
-  .container {
-    .paragraph {
-      max-width: 900px;
-      text-align: justify;
-      margin: auto;
-      padding: 3%;
-      font-size: large;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  h1 {
+    max-width: 90%;
+    padding-bottom: 7%;
+    color: @light;
+    display: flex;
+    justify-content: center;
+
+    div {
+      max-width: fit-content;
     }
+  }
+
+  .paragraph {
+    max-width: 900px;
+    text-align: justify;
+    margin: auto;
+    padding: 3%;
+    font-size: large;
   }
 }

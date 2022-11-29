@@ -117,7 +117,7 @@ export const projects = [
     name: "Python Web Automation",
     url: "",
     picture: Automation,
-    repo: "https://github.com/parzidog/automation",
+    repo: "",
     description: "This is a simple web automation application using Python that I built to help streamline on-site visits by the Chief of Operations. Upon entry to a facility, the Chief of Operations will log into and open the application. Once the application is open, she will then select which facility she is at. Upon her selection, the application will log her into her account and simultaneously download a series of reports and display them on the screen with the option to select a physical printer to send them to. As this is a professional project with sensitive data, I am unable to share the source code or provide access to the application. While this project is not a full stack application, it does demonstrate my ability to learn new technologies and implement them in a way that is both efficient and effective."
   },
   {

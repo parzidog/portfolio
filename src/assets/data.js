@@ -2,6 +2,7 @@ import logo from "./logo.webp";
 import GraceAdopter from "./graceadopter.webp";
 import HelloKitchen from "./hellokitchen.webp";
 import Automation from "./automation.webp"
+import WFSS from "./wfss.webp"
 
 export const jobs = [
   {
@@ -118,5 +119,12 @@ export const projects = [
     picture: Automation,
     repo: "https://github.com/parzidog/automation",
     description: "This is a simple web automation application using Python that I built to help streamline on-site visits by the Chief of Operations. Upon entry to a facility, the Chief of Operations will log into and open the application. Once the application is open, she will then select which facility she is at. Upon her selection, the application will log her into her account and simultaneously download a series of reports and display them on the screen with the option to select a physical printer to send them to. As this is a professional project with sensitive data, I am unable to share the source code or provide access to the application. While this project is not a full stack application, it does demonstrate my ability to learn new technologies and implement them in a way that is both efficient and effective."
+  },
+  {
+    name: "WF Self Storage",
+    url: "https://wfss-website.herokuapp.com/",
+    picture: WFSS,
+    repo: "",
+    description: "This website is designed as a full stack, data driven, single page application that is built with React, Node, Express, and PostgreSQL adn is currently in use by the Wichita Falls Self Storage facility in Wichita Falls, Texas. This project helped to solidy my understanding of a single page application that can be reconfigured for various clients based on the data that I am given. Do to the sensitive nature of the data, I am unable to share the source code, but I am able to provide access to the application. If you would like to see the application, please follow the link provided on the icon above."
   },
 ];

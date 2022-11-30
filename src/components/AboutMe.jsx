@@ -40,7 +40,7 @@ const AboutMe = () => {
         foreman for a commercial construction company where I simultaneously
         ran up to 3 job sites. It was during this period that I decided to go
         back to school and obtain my degree in engineering while
-        simultaneously working up to three jobs to continue . It was at then
+        simultaneously working up to three jobs to continue financially supporting my family. It was then
         that I discovered my love for computers and computer programming.
         While attending college full-time, I taught myself C/C++, Python, HTML
         and CSS programming languages before deciding to pursue a formal

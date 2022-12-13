@@ -18,11 +18,11 @@
        collect="always"
        id="linearGradient1741">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:##f7ece1;stop-opacity:1;"
          offset="0"
          id="stop1737" />
       <stop
-         style="stop-color:#4720c6;stop-opacity:1;"
+         style="stop-color:#725ac1;stop-opacity:1;"
          offset="0.48601153"
          id="stop1739" />
     </linearGradient>
@@ -45,7 +45,7 @@
      transform="translate(-61.877866,-90.529043)">
     <text
        space="preserve"
-       style="font-weight:bold;font-size:32.8259px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;fill:url(#radialGradient1747);fill-opacity:1;stroke:#ffffff;stroke-width:2.43028;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="font-weight:bold;font-size:32.8259px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;fill:url(#radialGradient1747);fill-opacity:1;stroke:##f7ece1;stroke-width:2.43028;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        x="113.15109"
        y="122.81874"
        id="text252"

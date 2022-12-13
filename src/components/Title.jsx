@@ -1,7 +1,15 @@
-import React from "react";
-import logo from "../assets/logo.svg";
+import React, { useEffect } from "react";
+import logo from "../assets/name.svg";
 
 const Title = () => {
+  useEffect(() => {
+    const title = document.getElementById("title");
+    title.style.paddingTop = `${window.innerHeight / 2 - 150}px`;
+    window.addEventListener("resize", () => {
+      title.style.paddingTop = `${window.innerHeight / 2 - 100}px`;
+    }, []);
+  });
+
   return (
     <div className="title" id="title">
       <div className="logo rotateInRight">

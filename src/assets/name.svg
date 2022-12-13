@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="122.77793mm"
+   height="31.204285mm"
+   viewBox="0 0 122.77793 31.204285"
+   version="1.1"
+   id="svg21"
+   docname="name.svg"
+   dataloss="true"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg">
+
+  <defs
+     id="defs18">
+    <linearGradient
+       collect="always"
+       id="linearGradient1741">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1737" />
+      <stop
+         style="stop-color:#202038;stop-opacity:1;"
+         offset="0.48601153"
+         id="stop1739" />
+    </linearGradient>
+    <radialGradient
+       collect="always"
+       xlink:href="#linearGradient1741"
+       id="radialGradient1747"
+       cx="117.70995"
+       cy="112.06395"
+       fx="117.70995"
+       fy="112.06395"
+       r="58.677837"
+       gradientTransform="matrix(0.97211424,0,0,0.284988,-0.06628481,82.459007)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     label="Layer 1"
+     groupmode="layer"
+     id="layer1"
+     transform="translate(-61.877866,-90.529043)">
+    <text
+       space="preserve"
+       style="font-weight:bold;font-size:32.8259px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;text-anchor:middle;fill:url(#radialGradient1747);fill-opacity:1;stroke:#ffffff;stroke-width:2.43028;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="113.15109"
+       y="122.81874"
+       id="text252"
+       transform="scale(1.0778725,0.92775352)"
+       export-filename="../adf225af/name.png"
+       export-xdpi="96"
+       export-ydpi="96"><tspan
+         role="line"
+         id="tspan250"
+         style="fill:url(#radialGradient1747);fill-opacity:1;stroke:#ffffff;stroke-width:2.43028;stroke-dasharray:none;stroke-opacity:1"
+         x="113.15109"
+         y="122.81874">Kenny</tspan></text>
+  </g>
+</svg>

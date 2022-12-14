@@ -152,7 +152,7 @@ svg {
   }
   to {
     opacity: 1;
-    transform: rotate(1440deg);
+    transform: rotate(4320deg);
   }
 }
 .slideLeft,

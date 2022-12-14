@@ -75,11 +75,11 @@ const Projects = () => {
                   }}
                 />
               </div>
-              {project.url ? <form action={project.url}>
+              {project.url ? <form target="_blank" action={project.url}>
                 <button type="submit">Visit Site</button>
               </form>
                 : <></>}
-              {project.repo ? <form action={project.repo}>
+              {project.repo ? <form target="_blank" action={project.repo}>
                 <button type="submit">See Repo</button>
               </form>
                 : <></>}

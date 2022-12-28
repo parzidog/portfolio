@@ -6,8 +6,11 @@ const Navbar = () => {
 
   document.addEventListener("scroll", () => {
     let nav = document.getElementById("nav");
-    nav.className = "navbar";
+    if(window.scrollY > 100){
+      nav.className = "navbar";
+    }
   });
+  
   return (
     <div id="nav" className="navbar hidden">
       <div>

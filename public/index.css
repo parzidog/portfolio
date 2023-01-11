@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   background-color: #12012f95;
   position: fixed;
   width: 100%;
@@ -45,7 +46,7 @@ svg {
   margin-right: 5%;
   height: 55px;
   width: 55px;
-  border-radius: 15px;
+  border-radius: 50%;
   z-index: 1;
   cursor: pointer;
 }
@@ -498,16 +499,31 @@ svg {
   color: #f7ece1;
 }
 .education .singleInstitute {
-  width: 350px;
+  width: fit-content;
   height: 150px;
+  display: flex;
+  flex-wrap: wrap;
   color: #f7ece1;
   border: 10px solid #915ac1;
-  padding-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   border-radius: 15px;
   margin: auto;
   margin-bottom: 2%;
   background-image: radial-gradient(#aea4b4, #f7ece1);
   color: #12012f;
+  align-items: center;
+}
+.education .singleInstitute div {
+  width: 100%;
+  padding: 1%;
+}
+.education .singleInstitute .instituteName {
+  width: 100%;
+}
+.education .singleInstitute .certification {
+  font-size: 1.25em;
+  font-weight: bolder;
 }
 .education .singleInstitute .date {
   font-weight: bold;

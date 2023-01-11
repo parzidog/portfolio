@@ -4,8 +4,9 @@
   padding: 3%;
   border-bottom: 5px solid @purple;
   border-top: 5px solid @purple;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
+
   h1 {
     width: 100%;
     padding-bottom: 7%;
@@ -13,16 +14,35 @@
   }
 
   .singleInstitute {
-    width: 350px;
+    width: fit-content;
     height: 150px;
+    display: flex;
+    flex-wrap: wrap;
     color: @light;
     border: 10px solid @purple;
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: 15px;
     margin: auto;
     margin-bottom: 2%;
     background-image: radial-gradient(@gray, @light);
     color: @dark;
+    align-items: center;
+
+    div {
+      width: 100%;
+      padding: 1%;
+    }
+
+    .instituteName {
+      width: 100%;
+    }
+
+    .certification {
+      font-size: 1.25em;
+      font-weight: bolder;
+    }
+
     .date {
       font-weight: bold;
     }

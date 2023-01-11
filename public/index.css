@@ -113,6 +113,7 @@ svg {
 .title {
   background: #12012f;
   padding: 2%;
+  min-height: 35vh;
   padding-top: 35vh;
   padding-bottom: 35vh;
   border-bottom: 5px solid #915ac1;

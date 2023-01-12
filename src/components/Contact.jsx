@@ -39,13 +39,13 @@ const Contact = () => {
       <div className="info">
         <h2 className="propertyName">Github:</h2>
         <h2 className="propertyValue">
-          <a href="https://www.github.com/parzidog">github.com/parzidog</a>
+          <a href="https://www.github.com/parzidog" target="_blank" rel="noreferrer">github.com/parzidog</a>
         </h2>
       </div>
       <div className="info">
         <h2 className="propertyName">Linkedin:</h2>
         <h2 className="propertyValue">
-          <a href="https://www.linkedin.com/in/parzidog">
+          <a href="https://www.linkedin.com/in/parzidog" target="_blank" rel="noreferrer">
             linkedin.com/in/parzidog
           </a>
         </h2>

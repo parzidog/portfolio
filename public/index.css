@@ -5,7 +5,8 @@
   align-items: center;
   background-color: #12012f95;
   position: fixed;
-  width: 100%;
+  left: -1%;
+  width: 100vw;
   padding: 1%;
   padding-top: 0%;
   max-height: 80px;
@@ -15,6 +16,7 @@
   max-height: 80px;
   display: flex;
   padding: 1%;
+  padding-left: 5%;
 }
 .navbar div img {
   max-width: 60px;
@@ -115,9 +117,10 @@ svg {
   background: #12012f;
   padding: 2%;
   min-height: 35vh;
-  padding-top: 35vh;
-  padding-bottom: 35vh;
-  border-bottom: 5px solid #915ac1;
+  padding-top: 28vh;
+  padding-bottom: 28vh;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
   animation: none;
 }
 #title .logo {
@@ -325,8 +328,8 @@ svg {
   padding: 3%;
   background-color: #f7ece1;
   color: #12012f;
-  border-bottom: 5px solid #915ac1;
-  border-top: 5px solid #915ac1;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
   display: block;
 }
 .quote .container h1 {
@@ -348,21 +351,21 @@ svg {
 .aboutme {
   background: #12012f;
   padding: 3%;
-  border-bottom: 5px solid #915ac1;
-  border-top: 5px solid #915ac1;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
   color: #f7ece1;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.aboutme h1 {
+.aboutme border h1 {
   max-width: 90%;
   padding-bottom: 7%;
   color: #f7ece1;
   display: flex;
   justify-content: center;
 }
-.aboutme h1 div {
+.aboutme border h1 div {
   max-width: fit-content;
 }
 .aboutme .paragraph {
@@ -376,8 +379,8 @@ svg {
   max-width: 100vw;
   background: #f7ece1;
   padding: 3%;
-  border-bottom: 5px solid #915ac1;
-  border-top: 5px solid #915ac1;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -489,8 +492,8 @@ svg {
   max-width: 100vw;
   background: #12012f;
   padding: 3%;
-  border-bottom: 5px solid #915ac1;
-  border-top: 5px solid #915ac1;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -533,8 +536,8 @@ svg {
   max-width: 100vw;
   background: #f7ece1;
   padding: 3%;
-  border-bottom: 5px solid #915ac1;
-  border-top: 5px solid #915ac1;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
 }
 .experience h1 {
   display: flex;
@@ -545,12 +548,30 @@ svg {
 .experience .download {
   padding: 1.5%;
   text-align: center;
+  height: fit-content;
+  margin: 3%;
 }
 .experience .download a {
   font-weight: bolder;
-  text-decoration-color: #12012f;
-  color: #915ac1;
-  -webkit-text-stroke: 0.5px #aea4b4;
+  text-decoration: none;
+  color: #f7ece1;
+  background-color: #12012f;
+  padding: 10px;
+  text-shadow: 1px 1px 5px #915ac1;
+  border: 2px solid #915ac1;
+  box-shadow: 2px 2px 3px #915ac1;
+  border-radius: 15px;
+}
+.experience .download a:hover {
+  -webkit-text-stroke: 1px #12012f;
+  background-color: #915ac1;
+  text-shadow: 1px 1px 5px #12012f;
+  border: 2px solid #12012f;
+  box-shadow: 2px 2px 3px #12012f;
+}
+.experience .download a:active {
+  box-shadow: inset 2px 2px 3px #12012f;
+  border: 0;
 }
 .experience .singleJob {
   width: 100%;
@@ -600,8 +621,8 @@ svg {
   background: #12012f;
   color: #f7ece1;
   padding: 3%;
-  border-bottom: 5px solid #915ac1;
-  border-top: 5px solid #915ac1;
+  border: 10px solid #915ac1;
+  border-radius: 25px;
   margin: auto;
 }
 .contact h1 {
@@ -636,6 +657,16 @@ svg {
   font-display: swap;
   justify-content: center;
   max-width: 100%;
+}
+body {
+  background-color: #915ac1;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 95vw;
+  margin: auto;
 }
 .container {
   padding: 3%;

@@ -2,8 +2,8 @@
   max-width: 100vw;
   background: @light;
   padding: 3%;
-  border-bottom: 5px solid @purple;
-  border-top: 5px solid @purple;
+  border: 10px solid @purple;
+  border-radius: 25px;
 
   h1 {
     display: flex;
@@ -11,14 +11,36 @@
     padding-bottom: 4%;
     color: @dark;
   }
+
   .download {
     padding: 1.5%;
     text-align: center;
+    height: fit-content;
+    margin: 3%;
+
     a {
       font-weight: bolder;
-      text-decoration-color: @dark;
-      color: @purple;
-      -webkit-text-stroke: 0.5px @gray;
+      text-decoration: none;
+      color: @light;
+      background-color: @dark;
+      padding: 10px;
+      text-shadow: 1px 1px 5px @purple;
+      border: 2px solid @purple;
+      box-shadow: 2px 2px 3px @purple;
+      border-radius: 15px;
+    }
+
+    a:hover {
+      -webkit-text-stroke: 1px @dark;
+      background-color: @purple;
+      text-shadow: 1px 1px 5px @dark;
+      border: 2px solid @dark;
+      box-shadow: 2px 2px 3px @dark;
+    }
+
+    a:active {
+      box-shadow: inset 2px 2px 3px @dark;
+      border: 0;
     }
   }
 
@@ -54,6 +76,7 @@
         text-align: left;
         list-style: none;
       }
+
       li {
         text-align: left;
         color: @dark;

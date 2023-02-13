@@ -38,6 +38,7 @@ const Experience = () => {
             <h3 className="companyName">{job.name}</h3>
             <p className="date">{job.date}</p>
             <div className="jobDetails">
+              <p align="justify" className="jobExplanation">{job.explanation}</p>
               <ul>
                 {job.description.map((bullet) => {
                   num += 1;

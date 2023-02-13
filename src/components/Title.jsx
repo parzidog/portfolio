@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../assets/name.svg";
+import logo from "../assets/name.png";
 
 const Title = () => {
 

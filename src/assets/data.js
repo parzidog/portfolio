@@ -6,14 +6,23 @@ import WFSS from "./wfss.webp"
 
 export const jobs = [
   {
+    name: "edX",
+    title: "Full Stack Software Engineering Bootcamp Instructor",
+    date: "February 2023 - PRESENT",
+    explanation: "Guided students through building their own full-stack web applications, providing support and feedback along the way. Equipped students with the skills and knowledge needed to succeed as software engineers in today's fast-paced tech industry.",
+    description: [
+      "Conducted interactive sessions of up to 60 students on full - stack software engineering, covering essential topics such as front - end and back - end development, databases, and deployment while employing visual aids, real- world examples, and practical exercises to ensure that students grasped the concepts thoroughly.",
+      "Designed and moderated group projects that challenged students to apply their skills to real-world problems. Encouraged peer-to-peer feedback and communication, fostering a collaborative learning environment that encouraged students to develop their teamwork and communication skills.",
+    ],
+  },
+  {
     name: "Donald Jones Consulting",
     title: "General Manager / IT Consultant",
     date: "September 2021 - PRESENT",
     explanation: "Managed process re-engineering projects to improve and consolidate end-to-end service processes. Administered and controlled release of proprietary information by developing and maintaining secure information systems. Promoted to Lead IT Consultant for developing solid understanding of full-stack software development.",
     description: [
+      "Architected and developed multiple full-stack web applications utilizing React, Node.js and SQL, implementing complex data structures and integrated APIs to enable seamless data exchange.",
       "Reduced 45% of paperwork by developing Python automation software and restructuring communication flow across 28 facilities.",
-      "Optimized 32% production efficiency by analyzing and restructuring work procedures for Chief of Operations.",
-      "Enhanced facility utilization by 200% through efficient planning, full stack web application development and successful implementation of facility goals within defined budget constraints.",
     ],
   },
   {
@@ -22,9 +31,9 @@ export const jobs = [
     date: "February 2020 - November 2020",
     explanation: "Executed necessary security protocols for ensuring adherence to HIPAA and Joint Commission standards while protecting doctors, nurses and patients of facility. Oversaw end-to-end aspects involved in release of proprietary information by organizing secure information systems. Evaluated development and effectiveness of subordinates while strengthening overall team development.",
     description: [
-      "Determined and employed appropriate de-escalation techniques to minimize physical confrontations by 28% during unprecedented times of COVID pandemic.",
+      "Responded to emergency situations and disturbances within the hospital, coordinating with law enforcement and medical staff to ensure swift and effective resolution while minimizing the risk of virus transmission.",
       "Controlled the release of proprietary information by organizing and developing secure information systems.",
-      "Assessed the development and effectiveness of subordinates while cultivating the strengths of individuals within the team.",
+      "Monitored and patrolled hospital premises to maintain order and safety, preventing unauthorized access and ensuring compliance with social distancing and PPE requirements.",
     ],
   },
   {
@@ -41,13 +50,11 @@ export const jobs = [
     name: "United States Marine Corps",
     title: "Sergeant / Division Lead",
     date: "December 2010 - January 2018",
-    explanation: "Engineered and reconstructed operational readiness standards for maintaining a combat ready squadron of F/A-18 and F-35 fighter jets. Delegated and supervised large maintenance teams while answering to the highest levels of command. Cultivated an environment that encouraged organizational readiness and individual mental health awareness.",
+    explanation: "Led a team of aircraft maintenance personnel in conducting scheduled and unscheduled maintenance on a fleet of aircraft. Oversaw all aspects of maintenance operations, including maintenance planning, resource allocation, and quality control. Coordinated with other departments to ensure smooth and efficient operations, while adhering to industry regulations and safety standards.",
     description: [
-      "Utilized a Top Secret security clearance from 2012 – 2018.",
-      "Overcame seemingly insurmountable odds to maintain operational readiness on 2 separate occasions, resulting in being awarded two Navy and Marine Corps Achievement medals.",
-      "Re-engineered the technological documentation process for the largest program in military aviation in order to improve document access and storage by 86% while removing the time needed for project management by 79%.",
-      "Cultivated an environment that encouraged organizational readiness and individual mental health awareness.",
-      "Supervised and commanded maintenance teams of up to 65 Marines in high stress combat situations while maintaining a professional, combat ready squadron of F/A-18 and F-35 fighter jets.",
+      "Managed the largest program in military aviation, assigning tasks to maintenance crews of up to 60 Marines while inspecting their work to ensure proper repair and maintenance of aircraft",
+      "Received two Navy/Marine Corps Achievement Medals in recognition of outstanding leadership, dedication, and attention to detail in managing aircraft maintenance operations.",
+      "Trained and mentored maintenance personnel on aircraft maintenance procedures, safety protocols, and best practices while collaborating with engineers and other technical experts to develop solutions for complex aircraft maintenance issues.",
     ],
   },
 ];
@@ -93,7 +100,7 @@ export const contact = [
 export const projects = [
   {
     name: "This Website",
-    url: "https://www.parzidog.com",
+    url: "",
     picture: logo,
     repo: "https://www.github.com/parzidog/portfolio",
     description: "This website is a top of the line, full stack, single page application that is built with React, Node, Express, and PostgreSQL. The object of this website is to be simple while still displaying some of my abilities as a software engineer. It is fully responsive and is hosted on Heroku. I am continually adding new features and improving the user experience. I plan to migrate this website to AWS in the near future.",

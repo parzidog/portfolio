@@ -26,7 +26,9 @@ const Contact = () => {
       </h1>
       <div className="info">
         <h2 className="propertyName">Phone:</h2>
-        <a href='tel:+13173612543'>(317) 361-2543</a>
+        <h2 className='propertyValue'>
+          <a href='tel:+13173612543'>(317) 361-2543</a>
+        </h2>
       </div>
       <div className="info">
         <h2 className="propertyName">Email:</h2>

@@ -18,7 +18,7 @@ const Education = () => {
       <h1>
         {start ? <Typewriter
           onInit={(typewriter) => {
-            typewriter.typeString("Education").start();
+            typewriter.typeString("Education & Certifications").start();
           }}
           options={{
             autoStart: true,

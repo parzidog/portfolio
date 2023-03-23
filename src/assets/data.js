@@ -61,9 +61,14 @@ export const jobs = [
 
 export const schools = [
   {
-    name: "Amazon Web Services",
-    date: 2022,
-    certification: "AWS Cloud Practitioner",
+    name: "CompTIA",
+    date: 2023,
+    certification: "ITF+ Certification",
+  },
+  {
+    name: "Embry-Riddle Aeronautical University",
+    date: 2023,
+    certification: "A.S. Engineering",
   },
   {
     name: "Fullstack Academy",
@@ -71,9 +76,9 @@ export const schools = [
     certification: "Full Stack Software Engineer",
   },
   {
-    name: "Embry-Riddle Aeronautical University",
-    date: 2023,
-    certification: "A.S. Engineering",
+    name: "Amazon Web Services",
+    date: 2022,
+    certification: "AWS Cloud Practitioner",
   },
 ];
 

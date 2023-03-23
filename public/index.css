@@ -515,6 +515,7 @@ svg {
   background-image: radial-gradient(#aea4b4, #f7ece1);
   color: #12012f;
   align-items: center;
+  min-width: 575px;
 }
 .education .singleInstitute div {
   width: 100%;

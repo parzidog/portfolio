@@ -493,6 +493,7 @@ svg {
   border-bottom: 5px solid #915ac1;
   border-top: 5px solid #915ac1;
   display: flex;
+  flex: 0 0 1000px;
   flex-wrap: wrap;
 }
 .education h1 {
@@ -515,7 +516,7 @@ svg {
   background-image: radial-gradient(#aea4b4, #f7ece1);
   color: #12012f;
   align-items: center;
-  min-width: 575px;
+  width: 575px;
 }
 .education .singleInstitute div {
   width: 100%;

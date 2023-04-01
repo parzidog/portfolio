@@ -2,17 +2,25 @@ import React, { useEffect } from "react";
 import logo from "../assets/name.png";
 
 const Title = () => {
-
-  useEffect(() => {
-    const title = document.getElementById("title");
+  
+  const onLoad = () => {
+    let title = document.getElementById("title") || document.createElement("div");
     title.style.paddingTop = `${window.innerHeight / 2 - 150}px`;
     window.addEventListener("resize", () => {
       title.style.paddingTop = `${window.innerHeight / 2 - 100}px`;
-    }, []);
-  });
+    });
+  }
+
+  // useEffect(() => {
+  //   title = document.getElementById("title");
+  //   title.style.paddingTop = `${window.innerHeight / 2 - 150}px`;
+  //   window.addEventListener("resize", () => {
+  //     title.style.paddingTop = `${window.innerHeight / 2 - 100}px`;
+  //   }, []);
+  // });
 
   return (
-    <div className="title" id="title">
+    <div onLoad={onLoad} className="title" id="title">
       <div className="logo rotateInRight">
         <img src={logo} alt="" />
       </div>

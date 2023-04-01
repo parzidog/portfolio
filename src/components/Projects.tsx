@@ -4,13 +4,18 @@ import Typewriter from "typewriter-effect";
 import { listener } from "../assets/helperFunctions";
 
 const Projects = () => {
-  const [clicked, setClicked] = React.useState({});
+  const [clicked, setClicked] = React.useState({name: '',
+    url: '',
+    picture: '',
+    repo: '',
+    description: '',});
   const [start, setStart] = React.useState(false);
-  const rotatehelper = (val, minA, maxA, minB, maxB) => {
+  const rotatehelper = (val: number, minA: number, maxA: number, minB: number, maxB: number) => {
     return minB + ((val - minA) * (maxB - minB)) / (maxA - minA);
   };
 
   let id = "aboutme"
+  let element;
 
   useEffect(() => {
     listener(id, setStart)
@@ -69,7 +74,7 @@ const Projects = () => {
                   onMouseMove={handleMouseMove}
                   onClick={() => {
                     setClicked(project)
-                    let element = document.getElementById("projectInfo")
+                    element = document.getElementById("projectInfo") || document.createElement("div");
                     element.scrollIntoView({ behavior: "smooth" })
                     element.className = "projectInfo show";
                   }}

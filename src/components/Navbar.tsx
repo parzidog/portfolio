@@ -3,9 +3,10 @@ import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  let nav: HTMLElement | null;
 
   document.addEventListener("scroll", () => {
-    let nav = document.getElementById("nav");
+    nav = document.getElementById("nav") || document.createElement("div");
     if (window.scrollY > 100) {
       nav.className = "navbar";
     }

@@ -1,30 +1,30 @@
-import React, { useEffect } from "react";
-import Typewriter from "typewriter-effect";
-import { listener } from "../assets/helperFunctions";
+import React, { useEffect } from 'react';
+import Typewriter from 'typewriter-effect';
+import { listener } from '../assets/helperFunctions';
 
 const AboutMe = () => {
 
-  const [start, setStart] = React.useState(false);
+    const [start, setStart] = React.useState(false);
 
-  let id = "quote"
+    const id = 'quote';
 
-  useEffect(() => {
-    listener(id, setStart)
-  }, [])
+    useEffect(() => {
+        listener(id, setStart);
+    }, []);
 
-  return (
-    <div className="aboutme" id="aboutme">
-      <h1 className="typewriter">
-        {start ? <Typewriter
-          onInit={(typewriter) => {
-            typewriter.typeString("About Me").start();
-          }}
-          options={{
-            autoStart: true,
-          }}
-        /> : <></>}
-      </h1>
-      <p className="paragraph">
+    return (
+        <div className="aboutme" id="aboutme">
+            <h1 className="typewriter">
+                {start ? <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter.typeString('About Me').start();
+                    }}
+                    options={{
+                        autoStart: true,
+                    }}
+                /> : <></>}
+            </h1>
+            <p className="paragraph">
         I am a lifelong student above all else. I am also a Marine Corps
         veteran with a degree in engineering and a true passion for computer
         programming. I spent more than 7 years in the Marine Corps with a
@@ -46,9 +46,9 @@ const AboutMe = () => {
         and CSS programming languages before deciding to pursue a formal
         education in Software Engineering with a focus in JavaScript and web
         development.
-      </p>
-    </div>
-  );
+            </p>
+        </div>
+    );
 };
 
 export default AboutMe;

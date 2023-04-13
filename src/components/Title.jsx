@@ -2,14 +2,6 @@ import React, { useEffect } from 'react';
 import logo from '../assets/name.png';
 
 const Title = () => {
-  const onLoad = () => {
-    const title = document.getElementById('title') || document.createElement('div');
-    title.style.paddingTop = `${window.innerHeight / 2 - 150}px`;
-    window.addEventListener('resize', () => {
-      title.style.paddingTop = `${window.innerHeight / 2 - 100}px`;
-    });
-  };
-
   // useEffect(() => {
   //   title = document.getElementById("title");
   //   title.style.paddingTop = `${window.innerHeight / 2 - 150}px`;

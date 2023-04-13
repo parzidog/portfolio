@@ -9,18 +9,18 @@ import Quote from './Quote';
 import Title from './Title';
 
 const Main = () => {
-    return (
-        <>
-            <Navbar />
-            <Title />
-            <Quote />
-            <AboutMe />
-            <Projects />
-            <Education />
-            <Experience />
-            <Contact />
-        </>
-    );
+  return (
+    <>
+      <Navbar />
+      <Title />
+      <Quote />
+      <AboutMe />
+      <Projects />
+      <Education />
+      <Experience />
+      <Contact />
+    </>
+  );
 };
 
 export default Main;

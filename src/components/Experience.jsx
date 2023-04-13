@@ -45,7 +45,11 @@ const Experience = () => {
               <ul>
                 {job.description.map((bullet) => {
                   num += 1;
-                  return <li key={num}>{bullet}</li>;
+                  return (
+                    <li className='jobDescription' key={num}>
+                      {bullet}
+                    </li>
+                  );
                 })}
               </ul>
             </div>

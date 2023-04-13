@@ -86,7 +86,8 @@ svg {
   color: #f7ece1;
   font-weight: bold;
   -webkit-text-stroke: 0.5px #12012f;
-  text-shadow: 2px 2px 0px #915ac1, 1.5px 1.5px 0px #915ac1, 1px 1px 0px #915ac1, 0.5px 0.5px 0px #915ac1;
+  text-shadow: 2px 2px 0px #915ac1, 1.5px 1.5px 0px #915ac1, 1px 1px 0px #915ac1,
+    0.5px 0.5px 0px #915ac1;
 }
 .navigation-menu.expanded ul .social-media {
   width: 70%;
@@ -558,7 +559,7 @@ svg {
   border-radius: 10px;
   background-color: #12012f;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  text-shadow:1px 1px 0px #f7ece1, 0.5px 0.5px 0px #f7ece1;
+  text-shadow: 1px 1px 0px #f7ece1, 0.5px 0.5px 0px #f7ece1;
 }
 .experience .singleJob {
   width: 100%;
@@ -584,7 +585,8 @@ svg {
 .experience .singleJob .jobDetails h4 {
   text-align: left;
   color: #12012f;
-}.experience .singleJob .jobDetails p {
+}
+.experience .singleJob .jobDetails p {
   display: flex;
   justify-content: justify;
   padding-bottom: 3%;
@@ -599,8 +601,12 @@ svg {
   text-align: left;
   color: #12012f;
 }
+.jobDescription {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .experience .singleJob .jobDetails ul li::before {
-  content: "\2022";
+  content: '\2022';
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #915ac1;
   /* Change the color */
@@ -645,7 +651,7 @@ svg {
 * {
   margin: 0;
   text-align: center;
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
   font-weight: bold;
   font-display: swap;
   justify-content: center;

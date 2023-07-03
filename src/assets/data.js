@@ -7,14 +7,11 @@ import WFSS from './wfss.webp';
 
 export const jobs = [
   {
-    name: 'Guidewell Blue Cross Blue Shield',
-    title: 'Full Stack Software Engineer',
-    date: 'April 2023 - PRESENT',
-    explanation:
-      'Develop and test full stack web applications using ReactJS, Redux, D3 and NodeJS. Documented detailed system specifications, participate in unit testing and maintenance of planned and unplanned internally developed applications, evaluation and performance testing of purchased products.',
-    description: [
-      'Included numerous IT security controls to protect proprietary applications, customer information and application availability.',
-    ],
+    name: 'Citi',
+    title: 'Enterprise Operations and Technology Analyst',
+    date: 'June 2023 - PRESENT',
+    explanation: '',
+    description: [],
   },
   {
     name: 'edX',

@@ -11,28 +11,24 @@ export const jobs = [
     title: 'Enterprise Operations and Technology Analyst',
     date: 'June 2023 - PRESENT',
     explanation: '',
-    description: [],
+    description: ["Collaborated with 100+ global IT support teams using ServiceNow to detect, document, and resolve persistent network issues across the international network.","Engineered web-based automation tools for global deployment, specifically for the  Network and Distribution teams in the Global Command Center, resulting in more than a 5% reduction in the daily workload for team analysts.", "Provide Technical Support for Citi's global technology infrastructure by troubleshooting and providing client support for network and infrastructure issues."],
   },
   {
     name: 'edX',
     title: 'Full Stack Software Engineering Bootcamp Instructor',
     date: 'February 2023 - PRESENT',
-    explanation:
-      "Guided students through building their own full-stack web applications, providing support and feedback along the way. Equipped students with the skills and knowledge needed to succeed as software engineers in today's fast-paced tech industry.",
+    explanation:"",
     description: [
-      'Conducted interactive sessions of up to 60 students on full - stack software engineering, covering essential topics such as front - end and back - end development, databases, and deployment while employing visual aids, real- world examples, and practical exercises to ensure that students grasped the concepts thoroughly.',
-      'Designed and moderated group projects that challenged students to apply their skills to real-world problems. Encouraged peer-to-peer feedback and communication, fostering a collaborative learning environment that encouraged students to develop their teamwork and communication skills.',
+      'Mentored students in constructing their own full-stack web applications while delivering guidance and constructive feedback.', 'Led interactive sessions with up to 60 participants, focusing on full-stack software engineering and covered fundamental areas like command line, front-end, back-end development, databases and deployment.','Developed and supervised group projects challenging students to address real-world issues. Advocated for peer-to peer feedback and communication, fostering a collaborative learning environment that cultivated teamwork and effective communication.'
     ],
   },
   {
     name: 'Donald Jones Consulting',
     title: 'General Manager / IT Consultant',
-    date: 'September 2021 - PRESENT',
-    explanation:
-      'Managed process re-engineering projects to improve and consolidate end-to-end service processes. Administered and controlled release of proprietary information by developing and maintaining secure information systems. Promoted to Lead IT Consultant for developing solid understanding of full-stack software development.',
+    date: 'September 2021 - June 2023',
+    explanation:'',
     description: [
-      'Architected and developed multiple full-stack web applications utilizing React, Node.js and SQL, implementing complex data structures and integrated APIs to enable seamless data exchange.',
-      'Reduced 45% of paperwork by developing Python automation software and restructuring communication flow across 28 facilities.',
+      'Spearhead process re-engineering initiatives aimed at enhancing and consolidating end-to-end service processes while crafting secure information systems.','Achieved a 45% reduction in paperwork through the creation of Python automation software.','Improved production efficiency by 32% by analyzing and restructuring work procedures.','Boosted facility utilization by 200% through strategic planning and the development of full-stack web applications.'
     ],
   },
   {
@@ -40,30 +36,25 @@ export const jobs = [
     title: 'Hospital Security Officer',
     date: 'February 2020 - November 2020',
     explanation:
-      'Executed necessary security protocols for ensuring adherence to HIPAA and Joint Commission standards while protecting doctors, nurses and patients of facility. Oversaw end-to-end aspects involved in release of proprietary information by organizing secure information systems. Evaluated development and effectiveness of subordinates while strengthening overall team development.',
+      '',
     description: [
-      'Responded to emergency situations and disturbances within the hospital, coordinating with law enforcement and medical staff to ensure swift and effective resolution while minimizing the risk of virus transmission.',
-      'Controlled the release of proprietary information by organizing and developing secure information systems.',
-      'Monitored and patrolled hospital premises to maintain order and safety, preventing unauthorized access and ensuring compliance with social distancing and PPE requirements.',
+      'Implemented essential security procedures aligned with HIPAA and Joint Commission standards.','Managed secure information systems and assessed team members performance.', 'Decreased physical altercations by 28% amid the COVID pandemic through effective de-escalation methods.'
     ],
   },
   {
     name: 'G3 Construction, inc.',
     title: 'Lead Commercial Foreman',
     date: 'January 2018 - January 2020',
-    explanation:
-      'Planned and delegated workflow to staff members for attaining optimal levels of distribution, staffing, and production while consistently meeting deadlines, achieving quality objectives, and establishing inter-trade relations. Monitored and supervised routine responsibilities to ensure quality and conformity with contract. Conveyed project specifications in line with established state and federal guidelines. ',
+    explanation:'',
     description: [
-      'Administered team of 10 individuals, comprising carpenters, journeymen, drywall hangers, and labor personnel.',
-      'Utilized exceptional negotiation and communication skills for closing general contracts, purchase orders, and subcontract agreements with clients and subcontractors.',
+      'Strategized and assigned tasks to streamline distribution, staffing, and production processes.','Supervised a team comprising carpenters, journeymen, drywall hangers, and labor personnel.', 'Negotiated and finalized general contracts, purchase orders, and subcontract agreements with clients and subcontractors, leveraging strong negotiation and communication abilities.', 'Communicated project specifications ensuring adherence to state and federal regulations.'
     ],
   },
   {
     name: 'United States Marine Corps',
     title: 'Sergeant / Division Lead',
     date: 'December 2010 - January 2018',
-    explanation:
-      'Led a team of aircraft maintenance personnel in conducting scheduled and unscheduled maintenance on a fleet of aircraft. Oversaw all aspects of maintenance operations, including maintenance planning, resource allocation, and quality control. Coordinated with other departments to ensure smooth and efficient operations, while adhering to industry regulations and safety standards.',
+    explanation:'',
     description: [
       'Managed the largest program in military aviation, assigning tasks to maintenance crews of up to 60 Marines while inspecting their work to ensure proper repair and maintenance of aircraft',
       'Received two Navy/Marine Corps Achievement Medals in recognition of outstanding leadership, dedication, and attention to detail in managing aircraft maintenance operations.',
@@ -73,6 +64,11 @@ export const jobs = [
 ];
 
 export const schools = [
+  {
+    name: 'Western Governors University',
+    date: 2024,
+    certification: 'B.S. Network Engineering and Security',
+  },
   {
     name: 'CompTIA',
     date: 2023,

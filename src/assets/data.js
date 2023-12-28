@@ -11,7 +11,7 @@ export const jobs = [
     title: 'Enterprise Operations and Technology Analyst',
     date: 'June 2023 - PRESENT',
     explanation: '',
-    description: ["Collaborated with 100+ global IT support teams using ServiceNow to detect, document, and resolve persistent network issues across the international network.","Engineered web-based automation tools for global deployment, specifically for the  Network and Distribution teams in the Global Command Center, resulting in more than a 5% reduction in the daily workload for team analysts.", "Provide Technical Support for Citi's global technology infrastructure by troubleshooting and providing client support for network and infrastructure issues."],
+    description: ["Collaborated with 100+ global IT support teams using ServiceNow to detect, document, and resolve persistent network issues across the international network.","Engineered web-based automation tools for global deployment, specifically for the  Network and Distribution teams in the Global Command Center, resulting in more than a 5% reduction in the daily workload for team analysts.", "Provided Technical Support for Citi's global technology infrastructure by troubleshooting and providing client support for network and infrastructure issues."],
   },
   {
     name: 'edX',
@@ -28,7 +28,7 @@ export const jobs = [
     date: 'September 2021 - June 2023',
     explanation:'',
     description: [
-      'Spearhead process re-engineering initiatives aimed at enhancing and consolidating end-to-end service processes while crafting secure information systems.','Achieved a 45% reduction in paperwork through the creation of Python automation software.','Improved production efficiency by 32% by analyzing and restructuring work procedures.','Boosted facility utilization by 200% through strategic planning and the development of full-stack web applications.'
+      'Spearheaded process re-engineering initiatives aimed at enhancing and consolidating end-to-end service processes while crafting secure information systems.','Achieved a 45% reduction in paperwork through the creation of Python automation software.','Improved production efficiency by 32% by analyzing and restructuring work procedures.','Boosted facility utilization by 200% through strategic planning and the development of full-stack web applications.'
     ],
   },
   {

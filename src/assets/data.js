@@ -71,6 +71,11 @@ export const schools = [
   },
   {
     name: 'CompTIA',
+    date: 2024,
+    certification: 'A+ Certification',
+  },
+  {
+    name: 'CompTIA',
     date: 2023,
     certification: 'ITF+ Certification',
   },

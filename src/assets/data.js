@@ -70,6 +70,16 @@ export const schools = [
     certification: 'B.S. Network Engineering and Security',
   },
   {
+    name: 'LPI',
+    date: 2024,
+    certification: 'Linux Essentials'
+  },
+  {
+    name: 'Axelos',
+    date: 2024,
+    certification: 'ITILv4'
+  },
+  {
     name: 'CompTIA',
     date: 2024,
     certification: 'A+ Certification',

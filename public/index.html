@@ -42,7 +42,13 @@
       src="https://assets.calendly.com/assets/external/widget.js"
       type="text/javascript"
       async
-    ></script>
+    >
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZEGDKVSZMG');
+    </script>
     <script type="text/javascript">
       window.onload = function () {
         Calendly.initBadgeWidget({

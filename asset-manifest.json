@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/parzidog.github.io/static/js/main.b4d42ca1.js",
+    "static/media/name.png": "/parzidog.github.io/static/media/name.425f698672c615512cf6.png",
+    "static/media/resume.pdf": "/parzidog.github.io/static/media/resume.95390865f04213504a5f.pdf",
+    "static/media/logo.webp": "/parzidog.github.io/static/media/logo.ba3b5b4284474fe693b5.webp",
+    "static/media/graceadopter.webp": "/parzidog.github.io/static/media/graceadopter.e2194289ed61ffecdd08.webp",
+    "static/media/automation.webp": "/parzidog.github.io/static/media/automation.3c66d7749a2bf7ab4611.webp",
+    "static/media/hellokitchen.webp": "/parzidog.github.io/static/media/hellokitchen.cee545d5fe1b20bc5510.webp",
+    "static/media/wfss.webp": "/parzidog.github.io/static/media/wfss.760722c79b046123bf39.webp",
+    "static/media/logo.svg": "/parzidog.github.io/static/media/logo.439323e5e314afddc0cba3fc039d1706.svg",
+    "index.html": "/parzidog.github.io/index.html",
+    "main.b4d42ca1.js.map": "/parzidog.github.io/static/js/main.b4d42ca1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b4d42ca1.js"
+  ]
+}
